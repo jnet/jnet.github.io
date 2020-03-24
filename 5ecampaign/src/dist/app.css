@@ -35,7 +35,6 @@ main {
   height: 60px;
   display: flex;
   flex-directioN: row;
-  justify-content: center;
   align-items: center;
 }
 
@@ -61,6 +60,7 @@ main {
   display: flex;
   flex-directioN: row;
   justify-content: center;
+  border-bottom: 1px solid #354055;
 }
 
 .post-container {
@@ -71,4 +71,27 @@ main {
 .post {
   border-bottom: 1px solid #cfddf7;
   padding: 20px;
+}
+
+.side-nav {
+  margin: 0;
+  padding:0;
+}
+
+.side-nav-list {
+  margin: 0;
+  padding:0;
+}
+
+.side-nav-list-item {
+  display:flex;
+  flex-direction:row;
+}
+
+.side-nav-list-item > a {
+  text-decoration: none;
+}
+
+.side-nav-list-item-selected {
+  background-color: red;
 }
