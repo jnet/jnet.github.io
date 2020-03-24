@@ -114,3 +114,11 @@ main {
 .timeline-app {
   height: 600px;
 }
+
+.tl-menubar {
+  display:none;
+}
+
+.tl-headline {
+  color:#fff;
+}
