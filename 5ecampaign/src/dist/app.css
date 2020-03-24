@@ -98,13 +98,15 @@ main {
 }
 
 .side-nav-list-item:hover {
-  background-color:red;
+  background-color: #394153;
 }
 
 .side-nav-list-item > a {
   text-decoration: none;
+  color: #fff;
+  font-weight: 400;
 }
 
 .side-nav-list-item-selected {
-  background-color: red;
+  background-color: #2d3442;
 }
