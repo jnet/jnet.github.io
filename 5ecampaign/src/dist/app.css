@@ -80,12 +80,25 @@ main {
 
 .side-nav-list {
   margin: 0;
-  padding:0;
+  padding:20px;
+  list-style:none;
+}
+
+.side-nav-list-item, .side-nav-list-item-selected {
+  margin-bottom:10px;
+  border-radius: 2px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 400;
 }
 
 .side-nav-list-item {
   display:flex;
   flex-direction:row;
+}
+
+.side-nav-list-item:hover {
+  background-color:red;
 }
 
 .side-nav-list-item > a {
