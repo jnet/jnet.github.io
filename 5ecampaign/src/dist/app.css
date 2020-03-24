@@ -110,3 +110,7 @@ main {
 .side-nav-list-item-selected {
   background-color: #2d3442;
 }
+
+.timeline-app {
+  height: 600px;
+}
