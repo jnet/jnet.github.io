@@ -1,4 +1,4 @@
-.html, body {
+html, body {
   display:flex;
   flex-direction: column;
   height: 100%;
@@ -25,7 +25,24 @@
   flex-grow: 2;
 }
 
+.main-header {
+  padding: 0 20px;
+  border-bottom: 1px solid #e7eaf0;
+  height: 60px;
+  display: flex;
+  flex-directioN: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header h1 {
+  margin:0;
+  padding:0;
+  color: #2c3444;
+}
+
 .side-nav {
   width: 300px;
-  background-color: red;
+  max-width: 300px;
+  background-color: #424d62;
 }
