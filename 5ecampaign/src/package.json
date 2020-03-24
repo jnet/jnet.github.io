@@ -1,0 +1,22 @@
+{
+  "name": "5e-campaing-site",
+  "version": "1.0.0",
+  "description": "website to support the 5e campaign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Netzky",
+  "license": "ISC",
+  "dependencies": {
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.3"
+  }
+}

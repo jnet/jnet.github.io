@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.tsx"],"names":[],"mappings":";AAGA,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAAA,OAAO,OAAS,WACd,QAAQ,IAAI","file":"app.js","sourceRoot":"..","sourcesContent":["import * as React from 'react';\r\nimport * as ReactDOM from 'react-dom';\r\n\r\nwindow.onload = () => {\r\n  console.log(\"LOADING D and D APP\");\r\n};"]}
