@@ -51,6 +51,18 @@ main {
   background-color: #424d62;
 }
 
+.side-nav h1 {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  color: #fff;
+  font-size: 2.5rem;
+  align-items: center;
+  display: flex;
+  flex-directioN: row;
+  justify-content: center;
+}
+
 .post-container {
   display:flex;
   flex-direction: column;
