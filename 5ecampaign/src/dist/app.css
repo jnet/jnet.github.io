@@ -55,3 +55,8 @@ main {
   display:flex;
   flex-direction: column;
 }
+
+.post {
+  border-bottom: 1px solid #cfddf7;
+  padding: 20px;
+}
