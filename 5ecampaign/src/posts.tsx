@@ -31,7 +31,6 @@ export class Posts extends React.Component {
           return(
             <section className="post">
               <section className="post-title">
-                <span>{post.date}</span>
                 <h4>{post.title}</h4>
               </section>
               <section className="post-body">
