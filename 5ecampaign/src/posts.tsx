@@ -24,6 +24,7 @@ export class Posts extends React.Component {
   }
 
   render() {
+    console.log("RENDERING");
     return(
       <section className="posts-container">
         {posts.map((post)=>{
