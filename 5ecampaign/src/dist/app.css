@@ -1,0 +1,31 @@
+.html, body {
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  flex-grow: 2;
+}
+
+.column-flex {
+  display:flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.row-flex {
+  display:flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+.page {
+  display:flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+.side-nav {
+  width: 300px;
+  background-color: red;
+}

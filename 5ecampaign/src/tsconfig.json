@@ -1,0 +1,14 @@
+{
+ 
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "lib": ["DOM", "ES2015"]
+  }
+
+}
