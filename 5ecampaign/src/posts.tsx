@@ -18,7 +18,7 @@ export const posts : Post[] = [
 
 
 @observer
-export class Page extends React.Component {
+export class Posts extends React.Component {
   constructor(props : Readonly<{}>) {
     super(props);
   }
