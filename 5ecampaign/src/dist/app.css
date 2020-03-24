@@ -119,6 +119,10 @@ main {
   display:none;
 }
 
-.tl-headline {
-  color:#fff;
+.tl-timeline h1, .tl-timeline h2, .tl-timeline h3, .tl-timeline h4, .tl-timeline h5, .tl-timeline h6 {
+  color: #fff;
+}
+
+.tl-attribution {
+  display:none;
 }
